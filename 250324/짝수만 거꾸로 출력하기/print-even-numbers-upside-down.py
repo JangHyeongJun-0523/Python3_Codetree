@@ -1,6 +1,5 @@
 numbers=int(input())
-arr=list(map(float, input().split(" ")))
-arr=list(map(int, arr))
+arr=list(map(int, input().split()))
 
 for i in range(numbers-1, -1, -1):
     if arr[i] % 2 == 0:
